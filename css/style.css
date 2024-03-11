@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body {
+    overflow: hidden;
+    background: #31363F;
+    color: #EEEEEE;  
+}
+/*GERAIS*/
+.text-color-primary {
+    color: #EEEEEE;    
+}
+/*MENU LATERAL*/
+.sidebar {
+    background-color: #222831;
+}
+.nav-pills li a:hover {
+    background-color: #31363F;
+    color: #EEEEEE; 
+}
+.sidebar {
+    min-height: 100vh;
+}
+p {
+    font-size: 18px;
+}
+span {
+    font-size: 18px;   
+}
+/*CONTEUDO*/
+.content {
+    width: 100%;
+}
+.exercises {
+    background: #222831;
+    width: 75%;
+    border-radius: 10px;
+}
+.list-exercises li a:hover {
+    background-color: #31363F;
+    color: #EEEEEE;     
+}
+/*PHONE*/
+@media (max-width: 768px) {
+       
+}
